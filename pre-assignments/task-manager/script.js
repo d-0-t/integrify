@@ -41,6 +41,11 @@ function whatIdToAppend() {
 
 
 function addTask() {
+  // Prevent empty/whitespace submission
+  if (document.getElementById("taskText").value.trim() == "") {
+    return;
+  }
+
   let newId = "task" + whatIdToAppend();
 
   let checkMark = document.createElement("DIV");
@@ -65,6 +70,7 @@ function addTask() {
   newTaskRow.appendChild(deleteMark);
   
   document.getElementById("taskList").appendChild(newTaskRow);
+  document.getElementById('taskText').value = "";
 }
 
 
@@ -114,11 +120,14 @@ let toggleCheckState = 0;
 // 0 - check all (default)
 // 1 - uncheck all (toggled)
 function checkAllTasks() {
+
+  document.getElementById('toggleCheckSpan').innerHTML = "Uncheck all";
   let classValue = "notChecked";
   let toggleValue = "isChecked";
   if (toggleCheckState === 1) {
     toggleValue = "notChecked";
     classValue = "isChecked"
+    document.getElementById('toggleCheckSpan').innerHTML = "Check all";
   }
   let node = document.querySelectorAll("." + classValue);
 

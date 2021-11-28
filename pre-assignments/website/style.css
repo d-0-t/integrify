@@ -227,15 +227,17 @@ h2 {
 #navbar {
   display: flex;
 }
-#navbar > a > li, #navbar-menu > a > li {
+#navbar > li, #navbar-menu > li {
   list-style: none;
+}
+#navbar > li > a, #navbar-menu > li > a {
   margin: 5px;
   padding: 5px;
   font-weight: bold;
   color: white;
   transition: color 0.3s, outline 0.5s;
 }
-#navbar > a > li:hover, #navbar-menu > a > li:hover {
+#navbar > li > a:hover {
   color: rgb(173, 192, 214);
   outline: 7px dotted rgb(8, 29, 99);
 }
@@ -258,13 +260,21 @@ h2 {
     position: absolute;
     right: 0;
   }
-  #navbar-menu > a > li {
+  #navbar-menu > li {
     text-align: center;
     width: 125px;
+    transition: color 0.3s, outline 0.5s;
   }
-  #navbar-menu > a > li:hover {
+  #navbar-menu > li:hover {
     color: rgb(173, 192, 214);
     outline: 7px dotted rgb(25, 41, 92);
+  }
+  #navbar-menu > li > a {
+    display: block;
+    height: 20px;
+  }
+  #navbar-menu > li > a:hover {
+    color: rgb(173, 192, 214);
   }
 }
 

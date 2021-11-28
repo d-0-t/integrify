@@ -26,7 +26,8 @@ a:hover {
 #appbox {
   border: 2px solid gray;
   padding: 20px;
-  max-width: 420px;
+  margin: 10px;
+  max-width: 450px;
   display: flex;
   flex-direction: column;
 }
@@ -69,7 +70,7 @@ a:hover {
 #checkAllTasks {
   color: #58b14a;
 }
-#allTaskBtns > button > span {
+#allTaskBtns > button > .buttonTitle {
   margin-left: 5px;
 }
 
@@ -101,8 +102,6 @@ a:hover {
   height: 19px;
   border: 1px solid gray;
   align-self: flex-start;
-  background-image: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-checkmark-round-56.png");
-  background-size: cover;
   box-shadow: inset 1px 1px 5px rgb(2, 2, 2);
 }
 .checkAllMark {
@@ -122,13 +121,20 @@ a:hover {
   filter: invert(0.8);
 }
 .isChecked > .checkMark, .checkAllMark {
+  background-image: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-checkmark-round-56.png");
+  background-size: cover;
   filter: invert(67%) sepia(14%) saturate(1589%) hue-rotate(65deg) brightness(86%) contrast(96%);
 }
 #taskList > li > span {
   margin-left: 5px;
   max-width: 80%;
 }
-
+#checkAllTasks {
+  width: 125px;
+}
+#checkAllTasks > #toggleCheckSpan {
+  width: 100%;
+}
 
 
 
