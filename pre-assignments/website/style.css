@@ -40,7 +40,7 @@ h2 {
 }
 
 #home-bg {
-  background: url(/eugene-ga-7Co7kvggX9c-unsplash.jpg);
+  background: url(eugene-ga-7Co7kvggX9c-unsplash.jpg);
   height: 100vh;
   display: flex;
 }
@@ -101,7 +101,7 @@ h2 {
 
 
 #service-bg {
-  background: url(/sonja-langford-eIkbSc3SDtI-unsplash.jpg);
+  background: url(sonja-langford-eIkbSc3SDtI-unsplash.jpg);
   background-size: cover;
   min-height: 100vh;
   display: flex;
