@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  background-color: #bccad6;
+  color: rgb(0, 0, 0);
+  background-image:   linear-gradient(#bccad6 2px, transparent 2px),
+                      linear-gradient(90deg, #bccad6 2px, transparent 2px),
+                      linear-gradient(#bccad6 1px, transparent 1px),
+                      linear-gradient(90deg, #bccad6 1px, #f5f1ef 1px);
+  background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+.app-header {
+  background-color: #667292d2;
+  color: white;
+  padding: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.page-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-shadow: 1px 1px 2px rgb(25, 46, 75);
+}
+.home-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  width: 200px;
+  height: 280px;
+  background-color: white;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 5px #8d9db6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.user-details-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #8d9db6;
+  font-family: "Dancing Script";
+  font-size: 42px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-fullname {
+  font-weight: 700;
+  font-size: 22px;
+  color: #272a35;
+  margin-top: 10px;
+}
+.user-username {
+  font-style: italic;
+  margin-bottom: 10px;
+  color: #667292;
+}
+.btn {
+  background-color: #667292;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  width: 125px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+  position: relative;
+  position: relative;
+  border: 0;
+  transition: background-color 0.3s;
+}
+.btn:hover {
+  background-color: #929ebe;
+  cursor: pointer;
+  font-weight: bold;
+}
+a {
+  color: #df7142;
+}
+.card > a, .user-page-content > a  {
+  text-decoration: none;
+}
+
+
+
+.user-page-content {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user-page-card > .avatar {
+  align-self: center;
+  margin-bottom: 20px;
+}
+.user-page-card {
+  width: fit-content;
+  background-color: white;
+  margin: 20px;
+  padding: 25px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 5px #8d9db6;
+  display: flex;
+  flex-direction: column;
+  color: #272a35;
+  font-size: 1.1em;
+}
+.user-info {
+  display: flex;
+  margin: 5px;
+}
+.user-info-title {
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+}
+.user-info-detail-address {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 5px;
+  display: inline-block;
+  list-style: none;
+  font-style: italic;
+}
+
+
+
+
+sampleColors {
+  color: #bccad6;
+  color: #8d9db6;
+  color: #667292;
+  color: #f1e3dd;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
