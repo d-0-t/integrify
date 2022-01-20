@@ -1,5 +1,4 @@
 import React from "react";
-import { useParams } from "react-router-dom";
 
 class UserPageCard extends React.Component {
   constructor(props) {
