@@ -1,6 +1,6 @@
 # HTML-CSS-SASS-Animation
 
-[**Full repo**](https://github.com/d-0-t/is3-css-sass/tree/main) & [**Live demo**](https://d-0-t.github.io/integrify/assignments/is3-css-sass-animation/index.html)
+[**Full repo**](https://github.com/d-0-t/is3-css-sass/) & [**Live demo**](https://d-0-t.github.io/integrify/assignments/is3-css-sass-animation/index.html)
 
 This assignment required working with the following concepts:
   - HTML with semantic elements
