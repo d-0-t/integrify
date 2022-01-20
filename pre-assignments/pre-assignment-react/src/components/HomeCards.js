@@ -30,7 +30,7 @@ class HomeUserCards extends React.Component {
           <div className='user-fullname'>{user.name}</div>
           <div className='user-username'>@{user.username}</div>
           <div className='user-url'>
-            <a href={"http://" + user.website} target="_blank">http://{user.website}</a>
+            <a href={"http://" + user.website} target="_blank" rel="noreferrer">http://{user.website}</a>
           </div>
       </div>
       <a href={"/users/" + user.id}>

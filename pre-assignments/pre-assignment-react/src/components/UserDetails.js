@@ -68,7 +68,7 @@ class UserPageCard extends React.Component {
         </div>
         <div className="user-info">
           <span className="user-info-title">Website:</span>
-          <a href={"http://" + this.state.website} target="_blank"><span className="user-info-detail">http://{this.state.website}</span></a>
+          <a href={"http://" + this.state.website} target="_blank" rel="noreferrer"><span className="user-info-detail">http://{this.state.website}</span></a>
         </div>
         <div className="user-info">
           <span className="user-info-title">Address:</span>
